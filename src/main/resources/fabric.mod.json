@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "svintusclient",
+  "version": "${version}",
+  "name": "SvintusClient",
+  "description": "Visual base client: glass Click GUI, HUD editor, custom shaders",
+  "authors": [
+    "lowcode.dll"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lowcode.svintusclient.client.SvintusclientClient"
+    ]
+  },
+  "accessWidener": "svintusclient.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
